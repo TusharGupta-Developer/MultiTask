@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header style*/
+.header {
+    min-height: 194px;
+    background-color: #F5F;
+
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    border-bottom: 2px solid #7b6267;
+
+
+}
+
+.name {
+    font-family: 'Leckerli One', cursive;
+    font-size: 89px;
+    /* margin-top: 25px; */
+    margin-top: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.define {
+    font-family: 'Leckerli One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    /* margin-bottom: 26px; */
+    margin-bottom: 11px;
+}
+
+/* nabar styling  */
+nav {
+    /* background-color: black; */
+    background-color: #7c0771;
+
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* position: sticky; */
+    /* top: 200px; */
+    top: 0;
+
+
+}
+
+nav>a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+/* main styling */
+main {
+    background-color: rgb(215 172 172);
+    position: relative;
+    z-index: -2;
+
+
+}
+
+.main_back {
+    width: 1000px;
+    /* height: 400px; */
+    height: 838px;
+    /* background-color: aquamarine; */
+    position: fixed;
+    /* top: 320px; */
+    top: -115px;
+    left: 211px;
+    z-index: -1;
+
+    /* setting background-image and background-image of image */
+    background: url("background.jpg") repeat;
+    background-size: auto;
+
+    border-radius: 10px;
+    border: 2px solid darkred;
+
+}
+
+.container {
+    /* background-color: bisque; */
+    /* background-color: #dee60c24;
+    background-color:  #E0E0E0; */
+
+
+    height: 265px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.row {
+    width: 430px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 239, 255);
+    border: 1px solid black;
+    border-radius: 11px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 151px;
+    height: 30px;
+    background-color: rgb(172, 71, 175);
+    color: aliceblue;
+}
+
+.footer {
+    text-align: center;
+    height: 60px;
+    padding: 22px;
+    font-size: larger;
+    color: antiquewhite;
+    background: #87637c;
+}
