@@ -1,0 +1,18 @@
+/* @keyframes anim {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+    
+}
+
+.row:hover{
+    animation: anim .5s ease-in 0s normal ;
+} */
+
+.row:hover{
+      transform: scale(1.1);
+      transition: transfom .5s ease-in 0s ;
+}
