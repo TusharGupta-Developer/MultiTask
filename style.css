@@ -126,6 +126,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
+
 }
 
 button {
@@ -142,4 +144,5 @@ button {
     font-size: larger;
     color: antiquewhite;
     background: #87637c;
+
 }
